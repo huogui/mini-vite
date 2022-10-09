@@ -5,8 +5,13 @@ importers:
   .:
     specifiers:
       '@huogui/eslint-config-ts': ^1.1.30
+      connect: ^3.7.0
       eslint: ^8.25.0
+      picocolors: ^1.0.0
       typescript: ^4.8.4
+    dependencies:
+      connect: 3.7.0
+      picocolors: 1.0.0
     devDependencies:
       '@huogui/eslint-config-ts': 1.1.30_z4bbprzjrhnsfa24uvmcbu7f5q
       eslint: 8.25.0
@@ -65,7 +70,7 @@ importers:
     dependencies:
       vue: 3.2.40
     devDependencies:
-      '@huogui/mini-vite': link:../packages/core
+      '@huogui/mini-vite': link:../packages/mini-vite
       '@types/node': 18.8.3
       '@vitejs/plugin-vue': 3.1.2_vite@3.1.6+vue@3.2.40
       typescript: 4.8.4

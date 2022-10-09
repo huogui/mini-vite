@@ -1,9 +1,9 @@
 {
   "name": "mini-vite",
   "description": "",
-  "private":true,
+  "private": true,
   "scripts": {
-    "start":"cd  packages/core && pnpm  start"
+    "start": "cd  packages/mini-vite && pnpm  start"
   },
   "bin": {
     "mini-vite": "bin/mini-vite"
@@ -11,10 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
- 
   "devDependencies": {
     "@huogui/eslint-config-ts": "^1.1.30",
     "eslint": "^8.25.0",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "picocolors": "^1.0.0"
   }
 }
